@@ -9,6 +9,11 @@ from config import FORCE_SUB_CHANNEL, ADMINS
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 from pyrogram.errors import FloodWait
 
+import pyrogram.utils
+
+pyrogram.utils.MIN_CHANNEL_ID = -1002420076026
+pyrogram.utils.MIN_CHANNEL_ID = -1002420076026
+
 async def is_subscribed(filter, client, update):
     if not FORCE_SUB_CHANNEL:
         return True
