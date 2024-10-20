@@ -11,8 +11,8 @@ from pyrogram.errors import FloodWait
 
 import pyrogram.utils
 
-pyrogram.utils.MIN_CHANNEL_ID = -1002420076026
-pyrogram.utils.MIN_CHANNEL_ID = -1002420076026
+pyrogram.utils.MIN_CHANNEL_ID = -1002284441360
+pyrogram.utils.MIN_CHANNEL_ID = -1002284441360
 
 async def is_subscribed(filter, client, update):
     if not FORCE_SUB_CHANNEL:
